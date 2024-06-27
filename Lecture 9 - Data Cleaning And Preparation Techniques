@@ -1,0 +1,14 @@
+1. TRIME - It is used  to remove all spaces 
+   • Syntax -> =TRIM(cell_name)
+
+2 PROPER - It convert each string into upper letter  
+  • Syntax-> =PROPER(cell_name)
+3 UPPER - It convert all letter  into uppper letter
+  • Syntax-> =UPPER(cell_name)
+4 LOWER - It convert  all letter into lower letter 
+   • Syntax -> =LOWER(Text _name)
+5 Text  Manipulation  function
+
+
+
+
