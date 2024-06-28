@@ -7,8 +7,20 @@
   • Syntax-> =UPPER(cell_name)
 4 LOWER - It convert  all letter into lower letter 
    • Syntax -> =LOWER(Text _name)
-5 Text  Manipulation  function
 
+ Text  Manipulation  function
+1. Left - It helps to print character according to our requirment 
+   • Syntax -> =left (cell_name, 5)
+2. Mid - It return the specify  no of character from the text 
+    • Syntax -> =MID(cell_name ,start point ,no of character)
+3. Search - It help in searching particular character or set of character 
+    •  Syntax -> =SEARCH("What you want to search",cell_name)
+4. Len - It give the length of  particular cells
+      • Syntax -> =LEN(cell_name )
+5. Right - It retain the last character in a text string based on the number of character  you selected
+     • Syntax -> =RIGHT(cell_name,LEN(cell_name)-SEARCH(" ", A2)
+
+  
 
 
 
