@@ -20,7 +20,19 @@
 5. Right - It retain the last character in a text string based on the number of character  you selected
      • Syntax -> =RIGHT(cell_name,LEN(cell_name)-SEARCH(" ", A2)
 
-  
+TEXT COMBINING:
+1. Concatenation - It helps to combine to two or more cell into one
+   • Syntax -> =CONCATENTATION( cell_name,cell_name)
+2. Text join- It can combine text from multiple range . It has separate part to define " delimitorsa"
+   • Syntax -> ==TEXTJOIN(" -",TRUE,cell_name,cell_name)
+
+
+CONDITIONAL LOGICAL FUNCTION
+1. IF - In this we can give one condition if the condition follow  then it give output true otherwise false
+   • Syntax -> =IF((condition check), (What if what if the particular condition true),(if the condition is false) )it 
+2 IF ERROR - It return a value that you are specify . If the formula evalute than it through an error . Basically it is used handling an error 
+  • Syntax -> =IFERROR((valuea),(what is the value if error occurs))
+   
 
 
 
