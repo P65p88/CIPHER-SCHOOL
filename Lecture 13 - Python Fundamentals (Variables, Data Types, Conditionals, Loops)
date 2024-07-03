@@ -93,7 +93,23 @@ e. Set - It is a collection of non repetitive element
 - for eg se={1,2,3,4} 
 - not allow  duplicates
 -length = to check the length 
-- add = to add the value- 
+- add = to add the value
+
+Conditional statement :
+-if 
+-elif
+-else
+for eg:   
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+ In this example conditon third is working conditon 1 and 2  follow the condition  
 
 
 
