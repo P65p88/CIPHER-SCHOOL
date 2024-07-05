@@ -1,0 +1,23 @@
+FUNCTION
+Definiton- Function is block of reusable code that perform a specific task . Function helps to modularize code , make it more organized and maintainable
+
+# Simple Fuction :
+def add_number(a,b):
+    return a+b
+print (add_number(3,4))
+ -output  7
+
+#Function with default Argument 
+def greet(name,message="hello):
+     return f"{ message},{name}!"
+print (greet("bob"))   -output : hello bob
+print(greet("Pranav",:hi)) -output : hi Alice
+
+#Function with keyword  Argument  
+def display_info(** kwargs):
+   for key,value in kwargs.iteam():
+      print(f"{key} : {value}")
+
+display _info(name="pranav",age=30,city="jammu")
+
+
